@@ -1,0 +1,52 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NovaMind AI</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h2>✦ NovaMind</h2>
+        <span>AI DOCUMENT ASSISTANT</span>
+    </header>
+
+    <main>
+        <div class="hero">
+            <h1>Welcome to NovaMind</h1>
+            <p>Your intelligent document assistant.</p>
+        </div>
+
+        <section class="upload-box">
+            <h2>Upload your document</h2>
+            <p>Choose a PDF or text file to get started.</p>
+            <input type="file" id="document" accept=".pdf,.txt">
+        </section>
+
+        <section class="chat-box">
+            <h2>Ask NovaMind</h2>
+            <div id="messages">
+                <p>👋 Hello! How can I help you today?</p>
+            </div>
+
+            <div class="input-area">
+                <input
+                    type="text"
+                    id="question"
+                    placeholder="Ask something..."
+                >
+                <button id="send">Send</button>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>NovaMind AI © 2026 | Built by Abolfazl</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
